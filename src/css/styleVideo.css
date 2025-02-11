@@ -1,11 +1,12 @@
 
 
 .container-videoBg {
-    margin-top: -294px;
+    margin-top: -300px;
     position: relative;
     width: 100%;
     height: 60vh; /* Ajuste a altura conforme necessário */
     overflow:hidden;
+  
    
   }
   
@@ -17,7 +18,7 @@
     width: 100%;
     height: 54%;
     object-fit:cover; /* Ajusta o vídeo para cobrir toda a área */
-    z-index: -1; /* Coloca o vídeo atrás do texto */
+    z-index: -2; /* Coloca o vídeo atrás do texto */
   }
 
 
@@ -33,7 +34,7 @@
 
   
 .container-videoBg {
-  margin-top: -224px;
+  margin-top: -200px;
   position: relative;
   width: 100%;
   height: 60vh; /* Ajuste a altura conforme necessário */

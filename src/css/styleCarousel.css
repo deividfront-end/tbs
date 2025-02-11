@@ -1,11 +1,12 @@
 .container-carousel-box {
   display: flex;
-  background-image: url(../img/red_blood_splatter_on_a_black_background_1508-min.jpg);
+ 
   background-size: cover !important;
   background-color: #0000003f;
+  background-repeat: no-repeat;
   justify-content: center !important;
   justify-items: center !important;
-  
+ background-image: url(../img/fundo\ RED-min.jpg);
   .container-carousel {
     margin-left: 55px;
     position: relative;
@@ -14,7 +15,7 @@
     height: 505px;
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: 0 2px 24px rgba(255, 255, 255, 0.855);
+   
     margin-bottom: 0px; /* Espaçamento entre as seções */
   
   }
@@ -107,7 +108,7 @@
       height: 505px;
       overflow: hidden;
       border-radius: 10px;
-      box-shadow: 0 2px 24px rgba(255, 255, 255, 0.855);
+    
       margin-bottom: 0px; /* Espaçamento entre as seções */
     
     }

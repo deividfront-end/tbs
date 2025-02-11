@@ -1,25 +1,28 @@
 
 
+
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+/*Estilização Menu */
+
 * {
   height: none;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+  
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 200;
+  font-style: normal;
   background-image: url(../img/fundo\ RED-min.jpg);
   background-size: cover;
-  background-color: #ff0000;
+
   background-position: 50%;
 }
-
-/*Estilização Menu */
 
 
 
@@ -37,7 +40,7 @@ nav {
   position: relative;
   width: 523px;
   height: 50px;
-  background-image: url(../img/red_blood_splatter_on_a_black_background_1508-min.jpg);
+
   background-size: cover;
   border-radius: 0px;
   display: flex;
@@ -156,7 +159,7 @@ button {
   letter-spacing: 4px;
   font-size: 20px;
   align-items: center;
-  background-color: #000000ec;
+  background-color: #000000;
   padding: 20px;
 }
 
@@ -165,13 +168,13 @@ button {
   height: 400px;
   margin-top: 0px;
   justify-content: center;
-background-color: #000000;
+
   justify-items: center;
   text-align: justify;
   padding: 20px;
 
   
-  background-color: #ff00008a;
+   
   display: flex; /* Ativa o Flexbox para alinhar os elementos lado a lado */
     
 }
@@ -375,7 +378,7 @@ h3 {
   color: #edf0f1;
   background-color: #000000;
   gap: 20PX;
-  
+  margin-top: 12px;
   padding: 20px;
   
 }

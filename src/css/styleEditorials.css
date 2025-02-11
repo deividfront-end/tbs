@@ -1,23 +1,24 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
 * {
   height: none;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+  
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 200;
+  font-style: normal;
   background-image: url(../img/fundo\ RED-min.jpg);
   background-size: cover;
-  background-color: #ff0000;
+  background-color: #440202;
   background-position: 50%;
 }
+
 
 /*Estilização Menu */
 
@@ -218,7 +219,7 @@ font-family:'Courier New', Courier, monospace!important;
   color: #edf0f1;
   background-color: #000000;
   gap: 20PX;
-  margin-top: 10px;
+  margin-top: 12px;
   
   padding: 10px;
   
