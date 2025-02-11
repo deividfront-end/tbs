@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+/*Estilização Menu */
+
 * {
   height: none;
   margin: 0;
@@ -16,11 +19,12 @@ body {
   font-family: "Protest Guerrilla", sans-serif;
   font-weight: 200;
   font-style: normal;
-
+  background-image: url(../img/fundo\ RED-min.jpg);
   background-size: cover;
-  background-color: #ff0000;
+
   background-position: 50%;
 }
+
 
 /*Estilização Menu */
 
@@ -111,8 +115,6 @@ button {
   justify-items: center;
   align-items: center;
   color: #000000;
-
-
   padding: 0px;
   
 }
@@ -136,7 +138,6 @@ button {
   letter-spacing: 6PX;
   color: #ff0000;
   padding-bottom: 30px;
-
   background-color: #0000005e;
 }
 
@@ -149,14 +150,6 @@ button {
   margin-top:30px;
   
 }
-
-
-
-
-
-
-
-
 
 
 /*Estilização Container Sobre/About*/
@@ -179,19 +172,7 @@ button {
 
 /*Estilização Container Redes*/
 
-.container-redes {
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  text-align: center;
-  color: #edf0f1;
-  background-color: #590c0cc0;
-  gap: 15px;
-  padding-top: 10px;
-}
-/*Estilização Container Rodapé*/
 
-/*Estilização Container Sobre/About*/
 .container-redes {
   display: flex;
   margin-top: 1px;
@@ -278,10 +259,11 @@ font-size: 14px;
   nav span {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 318px !important;
+    left: 235px!important;
+    width: 72px!important;
     height: 100%;
     border-radius: 0px;
+    background-color: #ff0000;
     transition: 0.5s;
   }
 
@@ -337,13 +319,12 @@ font-size: 14px;
     width: 68px;
     gap: 10px !important;
   }
-
   /*Estilização Container Rodapé*/
  .conteudo-subtitulo{
   display: flex;
   margin-top: -10px;
   margin-bottom: 20px;
-  background-color: #f8f2f2;
+  background-color: #00000027;
   height: 30px;
  }
 
@@ -357,29 +338,6 @@ font-size: 14px;
   margin-top: -40px;
 }
  
-
-.container-redes{
-  margin-top: 10px;
- 
-}
-  .container-rodape {
-    height: 50px!important;
-    display: flex!important;
-    justify-content: center;
-    justify-items: center;
-    text-align: center;
-    color: #edf0f1;
-    background-color: #000000;
-    margin-bottom: 0px !important;
-    font-size: 10px!important;
-    padding-bottom: 10px;
-    padding-top: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  .container-rodape a{
-    font-size: 12px;
-  }
 
   
 }
