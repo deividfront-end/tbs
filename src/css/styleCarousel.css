@@ -1,0 +1,188 @@
+.container-carousel-box {
+  display: flex;
+  background-image: url(../img/red_blood_splatter_on_a_black_background_1508-min.jpg);
+  background-size: cover !important;
+  background-color: #0000003f;
+  justify-content: center !important;
+  justify-items: center !important;
+  
+  .container-carousel {
+    margin-left: 55px;
+    position: relative;
+    width: 400px;
+    max-width: 400px;
+    height: 505px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 2px 24px rgba(255, 255, 255, 0.855);
+    margin-bottom: 0px; /* Espaçamento entre as seções */
+  
+  }
+  
+  .gallery {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%; /* Largura total da galeria */
+  }
+  
+  .gallery img {
+    width: 540px; /* Cada imagem ocupa 100% da largura do carrossel */
+    height: 490px; /* Cada imagem ocupa 100% da altura do carrossel */
+    object-fit: cover;
+    flex-shrink: 0; /* Impede que as imagens encolham */
+  }
+  
+  .controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+  
+  .control {
+    background-color: rgba(243, 11, 11, 0.7);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20%;
+    transition: background-color 0.3s;
+  }
+  
+  .control:hover {
+    background-color: rgb(230, 14, 14);
+  }
+  .img1 {  
+    width: 400px !important;
+    height: 505px !important;
+  }  
+  
+  .img2 {
+    width: 411px !important;
+    height: 505px !important;
+  }
+  
+  .img3 {
+    width: 320px !important;
+    height: 500px !important;
+  }
+  
+  .img4 {
+    width: 322px !important;
+    height: 500px !important;
+  }
+  
+  .img5 {
+    width: 320px !important;
+    height: 500px !important;
+  }
+  
+  .img6 {
+    width: 320px !important;
+    height: 500px !important;
+  }
+  
+  .img7 {
+    width: 320px !important;
+    height: 500px !important;
+  }
+}
+
+/*Responsive  */
+@media (max-width: 415px) {
+  .container-carousel-box {
+    display: flex;
+    background-size: cover !important;
+    background-color: #0000003f;
+    justify-content: center !important;
+    justify-items: center !important;
+    
+    .container-carousel {
+      margin: 0;
+      position: relative;
+      width: 400px;
+      max-width: 400px;
+      height: 505px;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 2px 24px rgba(255, 255, 255, 0.855);
+      margin-bottom: 0px; /* Espaçamento entre as seções */
+    
+    }
+    
+    .gallery {
+      display: flex;
+      transition: transform 0.5s ease;
+      width: 100%; /* Largura total da galeria */
+    }
+    
+    .gallery img {
+      width: 540px; /* Cada imagem ocupa 100% da largura do carrossel */
+      height: 490px; /* Cada imagem ocupa 100% da altura do carrossel */
+      object-fit: cover;
+      flex-shrink: 0; /* Impede que as imagens encolham */
+    }
+    
+    .controls {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+    }
+    
+    .control {
+      background-color: rgba(243, 11, 11, 0.7);
+      border: none;
+      cursor: pointer;
+      padding: 10px;
+      font-size: 15px;
+      border-radius: 20%;
+      transition: background-color 0.3s;
+    }
+    
+    .control:hover {
+      background-color: rgb(230, 14, 14);
+    }
+    .img1 {  
+      width: 400px !important;
+      height: 505px !important;
+    }  
+    
+    .img2 {
+      width: 411px !important;
+      height: 505px !important;
+    }
+    
+    .img3 {
+      width: 320px !important;
+      height: 500px !important;
+    }
+    
+    .img4 {
+      width: 322px !important;
+      height: 500px !important;
+    }
+    
+    .img5 {
+      width: 320px !important;
+      height: 500px !important;
+    }
+    
+    .img6 {
+      width: 320px !important;
+      height: 500px !important;
+    }
+    
+    .img7 {
+      width: 320px !important;
+      height: 500px !important;
+    }
+  }
+
+
+
+}
