@@ -510,7 +510,14 @@ font-size: 14px;
     color: #fff9f9;
   }
 
- 
+ .container-projects{
+  display: flex;
+  justify-content: center!important;
+  justify-items: center;
+
+  height: 800px;
+  margin-bottom: -11px!important;
+ }
 
 
   /*Sobre*/

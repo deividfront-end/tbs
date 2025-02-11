@@ -354,7 +354,18 @@ font-size: 14px;
   }
 
  
+.container-lutadores{
 
+  
+    display: flex;
+    justify-content: center!important;
+    justify-items: center;
+ 
+    height: 800px;
+    margin-bottom: -12px!important;
+   
+
+}
 
   /*Sobre*/
   .container-rodape {
