@@ -428,8 +428,7 @@ main {
     display: flex;
     justify-content: center!important;
     justify-items: center;
-  
-    height: 800px;
+    height: 900px!important;
     margin-bottom: -11px!important;
    }
   
