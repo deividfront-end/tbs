@@ -64,8 +64,8 @@ nav a {
 nav span {
   position: absolute;
   top: 0;
-  left: 0px;
-  width: 523px;
+  left: 396px;
+  width: 103px;
   height: 100%;
   background: #ee0707e7;
 
@@ -89,7 +89,7 @@ nav a:nth-child(3):hover ~ span {
 }
 
 nav a:nth-child(4):hover ~ span {
-  left: 404px !important;
+  left: 400px !important;
   width: 94px;
 }
 li,
