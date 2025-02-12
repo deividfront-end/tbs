@@ -424,15 +424,7 @@ main {
       color: #fff9f9;
     }
   
-   .container-projects{
-    display: flex;
-    justify-content: center!important;
-    justify-items: center;
-    height: 900px!important;
-    margin-bottom: -11px!important;
-   }
-  
-
+ 
 
 
 
@@ -546,11 +538,17 @@ main {
 
 
 
+main{
+    display: flex!important;
+    justify-content: center;
+    justify-items: center;
+}
 
 
-
-
-
+.container-redes{
+   display: flex;
+    margin-top: -10px;
+}
 
 
 
