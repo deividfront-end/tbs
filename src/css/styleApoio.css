@@ -539,6 +539,8 @@ main {
 
 
 main{
+    margin-top: 50px;
+    height: 500px!important;
     display: flex!important;
     justify-content: center;
     justify-items: center;
