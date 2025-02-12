@@ -445,7 +445,7 @@ main {
 
 .youtube-icon {
     
-    margin-top: 10px;
+    margin-top: 2px!important;
     height: 60px!important;
     box-shadow: 1px 4px 2px 2px rgba(224, 13, 13, 0.884);
     border-top: 3px  solid rgba(255, 0, 0, 0.877);
@@ -525,19 +525,6 @@ main {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 main{
     margin-top: 50px;
     height: 500px!important;
@@ -549,7 +536,7 @@ main{
 
 .container-redes{
    display: flex;
-    margin-top: -10px;
+   margin-top: -10px;
 }
 
 
