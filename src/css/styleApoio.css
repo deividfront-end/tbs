@@ -251,18 +251,32 @@ main {
     padding: 20px;
 }
 
-.patrocinadores {
-    height: 353px;
-    background-color: #edf0f128;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    border-radius: 12px;
-    
+.patrocinadores{
+  background-color: #1240d62c;
+
+  gap: 40px;
+  flex-direction: row;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.patrocinador, .patrocinador2, .patrocinador3{
+  justify-content: center;
+  text-align: center;
+  width: 80px!important;
+  height: 80px!important;
+  background-color: #000000;
+ 
+
 }
 
-.patrocinador {
-    margin: 10px;
+
+.patrocinador img, .patrocinador2 img, .patrocinador3 img {
+  background-color: #ece5e5;
+  width: 80px!important;
+  height: 80px!important;
+   
 }
 
 
@@ -477,7 +491,7 @@ main {
   }
   .youtube-icon img {
     border-radius: 110px;
-    background-color: #e70000!important;
+    background-color: #f8f8f8!important;
     width: 60px!important;
     height: 60px!important;
 
@@ -509,12 +523,32 @@ main {
 
    
 }
-
-.patrocinador  img{
-    background-color: #ff0000!important;
-    width: 60px;
-    height: 60px;
+.patrocinadores{
+  background-color: #1240d62c;
+  flex-direction: row;
+  height: 400px!important;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
 }
+.patrocinador, .patrocinador2, .patrocinador3{
+  justify-content: center;
+  text-align: center;
+  width: 60px!important;
+  height: 60px!important;
+  background-color: #000000;
+ 
+
+}
+
+
+.patrocinador img, .patrocinador2 img, .patrocinador3 img {
+  background-color: #ece5e5;
+  width: 60px!important;
+  height: 60px!important;
+   
+}
+
 
   .titulo-projects h3{
     margin-top: 0px;

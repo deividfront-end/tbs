@@ -170,7 +170,48 @@ button {
    margin-left: 40px;
 }
 
-/*Estilização Container Redes*/
+/*Estilização Container ROlagem  Paatrocinadores*/
+.barra-patrocinadores {
+  display: flex;
+  justify-content: center;
+  background-color: #2c2a2ab2;
+  width: 100%;
+  overflow: hidden; /* Esconde o conteúdo que ultrapassa a largura da barra */
+}
+
+.container-patrocinadores {
+  gap: 40px;
+  justify-content: center;
+  justify-items: center;
+
+  display: flex;
+  animation: movePatrocinadores 15s linear infinite; /* Define a animação */
+}
+
+.container-patrocinadores img {
+  margin: 10px; /* Espaçamento entre os ícones */
+}
+
+@keyframes movePatrocinadores {
+  0% {
+    transform: translateX(100%); /* Posição inicial */
+  }
+  100% {
+    transform: translateX(-100%); /* Move para a esquerda */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* Container REdes */
+
 
 
 .container-redes {
